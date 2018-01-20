@@ -8,15 +8,18 @@
     <title>Gathuku</title>
 </head>
 <body class="w3-metro-dark-blue">
+
    <div class="w3-container " >
 
    <div class="w3-display-middle ">
        <b><h1 class="w3-text-red w3-animate-left ">SITE UNDER CONSTRUCTION BY </h1></b>
        <b><h1 class="w3-text-red w3-animate-left"> GATHUKU</h1></b>
+       <form method="POST" action="save_email.php" onsubmit="showmessage()" target="_self">
        <p class="w3-text-white">Leave your Email, we will notify you when ready.</p>
-       <input required class="w3-input w3-round-xxlarge w3-opacity-min w3-border-teal" type="email" name="" id="" placeholder="Email Address">
-       <p><button onclick="showmessage()" class="w3-input  w3-red w3-round-xxlarge w3-opacity-min w3-hover-shadow">Submit</button></p>
-   </div>
+       <input required class="w3-input w3-round-xxlarge w3-opacity-min w3-border-teal" type="email" name="email" id="" placeholder="Email Address">
+       <p><button  class="w3-input  w3-red w3-round-xxlarge w3-opacity-min w3-hover-shadow">Submit</button></p>
+       </form>
+    </div>
    </div>
    <footer class="w3-center w3-hover-text-white w3-bottom ">
      <p>M.G Systems. All rights Reserved.</p>
@@ -29,5 +32,6 @@
 
    }
    </script>
+
 </body>
 </html>
