@@ -1,0 +1,15 @@
+body {font-family:'Comfortaa', cursive;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Archivo', sans-serif;
+   
+}
+
+
+#home{
+    background-image: url("images/home.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
